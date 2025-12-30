@@ -6,11 +6,21 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0 16px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 7px 30px;
 }
 
 .header {
     background-color: #1f2937;
-    padding: 12px 48px;
+    padding: 12px 0;
 }
 
 .header-top {
@@ -66,13 +76,7 @@ body {
 }
 
 .header button {
-    background-color: #3882f6;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 7px 30px;
     border: none;
-    border-radius: 6px;
 }
 
 .info-header {
@@ -127,8 +131,25 @@ body {
 
 .call-to-action-box {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #3882f6;
     border-radius: 8px;
     margin: 80px 0;
-    padding: 40px 80px;
+    padding: 48px 92px;
+}
+
+.call-to-action-text-big {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-text-small {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.call-to-action-box button {
+    border: 2px solid #f9faf8;
 }
