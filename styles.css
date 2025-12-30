@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Roboto, sans-serif;
     color: #1f2937;
@@ -27,6 +31,7 @@ button {
 .header-top {
     display: flex;
     justify-content: space-between;
+    gap: 16px;
 }
 
 .hero-logo-text {
@@ -89,8 +94,9 @@ button {
 
 .info-cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 60px;
+    gap: 30px 60px;
     margin-bottom: 80px;
 }
 
@@ -115,7 +121,7 @@ button {
     padding: 92px 0;
 }
 
-.quote-container {
+.quote .container {
     max-width: 850px;
     margin: 0 auto;
 }
