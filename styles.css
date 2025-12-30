@@ -11,7 +11,7 @@ body {
 
 button {
     background-color: #3882f6;
-    color: white;
+    color: #f9faf8;
     font-size: 18px;
     font-weight: bold;
     border-radius: 6px;
@@ -113,6 +113,11 @@ button {
 .quote {
     background-color: #e5e7eb;
     padding: 92px 0;
+}
+
+.quote-container {
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .quote-text {
