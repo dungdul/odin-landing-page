@@ -75,3 +75,32 @@ body {
     border: none;
     border-radius: 6px;
 }
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 48px 0;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 60px;
+}
+
+.info-card {
+    flex-basis: 180px;
+}
+
+.info-card img {
+    width: 100%;
+    border: 6px solid #3882f6;
+    border-radius: 8px;
+}
+
+.info-card-text {
+    text-align: center;
+}
